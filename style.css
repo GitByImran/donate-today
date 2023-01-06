@@ -6,7 +6,7 @@
     font-family: "poppins";
 }
 header {
-    background: url("/images/donation13.jpg") no-repeat;
+    background: url("./images/donation13.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     /* for the shade over background */
