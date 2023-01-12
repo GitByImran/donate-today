@@ -160,7 +160,7 @@ header {
     border: 3px solid #FF5959;
 }
 .subscribe button {
-    margin-top: 0;
+    margin: 20px 0;
 }
 
 /* footer part */
@@ -268,10 +268,49 @@ footer center > .title-all > p {
 
         
     /*  */
+    .title-all {
+        margin-top: 100px;
+    }
     .title-all p {
         font-size: 1em;
         color: rgb(94, 94, 94);
         padding: 0 20px;
         text-align: center;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+    .banner-info {
+        padding: 0 20px;
+    }
+    /*  */
+    .donate-plan-all {
+        flex-direction: column;
+    }
+    /*  */
+    .contribute-1,.contribute-2 {
+        display: flex;
+        gap: 20px;
+        margin: 0;
+    }
+    .contribute-1 {
+        flex-direction: column-reverse;
+    }
+    .contribute-2 {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .subscribe-option {
+        padding: 20px 0;
+        display: flex;        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe button {
+        margin-top: 20px;
+    }
+    /*  */
+    .title-all {
+        margin-top: 100px;
     }
 }
